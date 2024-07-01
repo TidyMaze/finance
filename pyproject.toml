@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "finance"
+version = "0.1.0"
+description = ""
+authors = ["yrolland <yann.rolland@iadvize.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+yfinance = "^0.2.40"
+ta = "^0.11.0"
+mplfinance = "^0.12.10b0"
+jupyter = "^1.0.0"
+numpy = "1.26.4"
+pandas = "2.2.1"
+scikit-learn = "^1.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
